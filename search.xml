@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>打造炫酷的Github个人页面</title>
+      <link href="/posts/96f9.html"/>
+      <url>/posts/96f9.html</url>
+      
+        <content type="html"><![CDATA[<p>打造属于你的炫酷的Github个人页</p><a id="more"></a><blockquote><p>转自：<a href="https://mp.weixin.qq.com/s/S2GhU0VvAPuSaTu5BgRURg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/S2GhU0VvAPuSaTu5BgRURg</a></p></blockquote><p>GitHub进行了新的改造，新增了很多的新的特性，其中有一个新的特性，被许多的GitHub用户玩出了很多的新花样，这个就是在GitHub个人页中直接添加<code>README</code>介绍，用于展示更加的详细信息。</p><p>首先看下 Django 与 Datasette 的作者 Simon Willison 就用了短短 150 行代码，来实时更新其个人页的 README 信息。</p><p><img src="https://gitee.com/yafine66/blogimage/raw/master/img/Snipaste_2020-09-07_16-40-47.png" alt=""></p><p>当他每次运行脚本时，会将项目的最新发行版、博客文章、Datasette API 等内容更新到个人主页上，这样别人就可以第一时间了解他的最新工作近态。</p><p>有兴趣了解具体实现原理的同学，可以看下他写的这篇文章：</p><p><a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/" target="_blank" rel="noopener">https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/</a></p><p>倘若你认为 GitHub README 只能做到这种地步，那你就大错特错了！</p><p>脑洞大开的程序员们，最近都纷纷在 Reddit 的 GitHub 区晒出了自己的新玩法。下面我简单贴几个让你们感受下。</p><h3 id="宠粉流"><a href="#宠粉流" class="headerlink" title="宠粉流"></a>宠粉流</h3><p>使用了类似 Friendster 的社交模板，从关注者中随机选出 8 个用户，每个一小时更新一次个人页的 README 信息。</p><blockquote><p>每日一个 GitHub 涨粉小秘诀。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/Snipaste_2020-09-07_17-42-44.png" alt=""></p><p>效果展示：<a href="https://github.com/sorxrob" target="_blank" rel="noopener">https://github.com/sorxrob</a></p><h3 id="递归流"><a href="#递归流" class="headerlink" title="递归流"></a>递归流</h3><p>作者是印度那边一个 17 岁的学生，在他的 GitHub 页面中，用递归的方式在 README 中层层嵌套自己的个人页，效果让人眼前一亮！</p><blockquote><p>堆栈溢出了喂！</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/Snipaste_2020-09-07_17-03-39.png" alt=""></p><p>效果展示：<a href="https://github.com/EliteDaMyth/" target="_blank" rel="noopener">https://github.com/EliteDaMyth/</a></p><p>GitHub 源码：<a href="https://github.com/EliteDaMyth/EliteDaMyth" target="_blank" rel="noopener">https://github.com/EliteDaMyth/EliteDaMyth</a></p><h3 id="至简流"><a href="#至简流" class="headerlink" title="至简流"></a>至简流</h3><p>每周在 README 中更新各种编程语言在工作中的具体占比时间。</p><p>你的技术堆栈、常用语言、编码状态让人一目了然。</p><blockquote><p>老板们的最爱。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/Snipaste_2020-09-07_17-11-10.png" alt=""></p><p>效果展示：<a href="https://github.com/gautamkrishnar" target="_blank" rel="noopener">https://github.com/gautamkrishnar</a></p><p>GitHub 源码：<a href="https://github.com/athul/waka-readme" target="_blank" rel="noopener">https://github.com/athul/waka-readme</a></p><h3 id="数据流"><a href="#数据流" class="headerlink" title="数据流"></a>数据流</h3><p>自动给你的 GitHub 信息生成统计报告，其中包括项目 Star 数、代码提交次数、项目贡献次数、PR 数、Issue 数等数据。</p><p>全方位展示你的 GitHub 信息。</p><blockquote><p>GitHub 活不活跃大家一看便知。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/Snipaste_2020-09-07_17-24-09.png" alt=""></p><p>效果展示：<a href="https://github.com/anuraghazra" target="_blank" rel="noopener">https://github.com/anuraghazra</a></p><p>GitHub 源码：<a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener">https://github.com/anuraghazra/github-readme-stats</a></p><p>看到这里，如果你觉得上述那几个示例还无法让你心动，那我再给你推荐一个开源项目：Awesome Profiles。</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/Snipaste_2020-09-07_17-27-27.png" alt=""></p><p>里面收集了非常多能让人眼前一亮的 README 模板，有很多是无需配合 GitHub Action，直接把 Markdown 复制粘贴一下就能用。</p><p>项目发布后的短短几天时间，已成功突破 1000+ Star，看来大家对 GitHub 新发布的这个新特性还是比较感兴趣的。</p><p>项目里面的 README 示例比较多，在这里就不一一展示了，下面贴个 GitHub 地址，感兴趣的同学可以上去扒一下：</p><p><a href="https://github.com/kautukkundan/Awesome-Profile-README-templates" target="_blank" rel="noopener">https://github.com/kautukkundan/Awesome-Profile-README-templates</a></p><p>说了那么多，这块到底怎么玩呢？</p><p>其实，在 GitHub 个人页中加了 README 的方式很简单，你只需要创建一个跟自己 GitHub 用户名相同命名的代码仓库，并勾选上自己 README 初始化按钮即可。</p><p>下面我用小号给大家演示一下具体创建过程。</p><p>第一步，创建与 GitHub 用户名同名的代码仓库。</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/Snipaste_2020-09-07_17-28-12.png" alt=""></p><p>第二步，返回个人页，即可看到成功生成 README 展示区块。</p><p>接着点击编辑按钮，用 Markdown 语法编写 README 文件，即可快速更新：</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/Snipaste_2020-09-07_17-28-30.png" alt=""></p><p>怎么样，是不是非常简单？</p><p>如果你有比较好的创意，不妨也试着整一个，然后在评论区贴上自己 GitHub 地址，让我们围观下!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 奇淫技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何为没有目录的PDF电子书添加目录</title>
       <link href="/posts/b251.html"/>
       <url>/posts/b251.html</url>
