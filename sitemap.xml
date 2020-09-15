@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yafine-blog.cn/suiyu/index.html</loc>
+    
+    <lastmod>2020-09-15T13:43:10.605Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yafine-blog.cn/posts/96f9.html</loc>
     
     <lastmod>2020-09-07T10:03:25.982Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>https://yafine-blog.cn/about/index.html</loc>
     
     <lastmod>2020-07-13T04:15:25.902Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yafine-blog.cn/suiyu/index.html</loc>
-    
-    <lastmod>2020-07-13T04:15:18.210Z</lastmod>
     
   </url>
   
