@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yafine-blog.cn/"/>
-  <updated>2020-09-27T14:12:33.178Z</updated>
+  <updated>2020-09-07T10:03:25.982Z</updated>
   <id>https://yafine-blog.cn/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>学习总结之HTML5剑指前端（建议收藏，图文并茂）</title>
-    <link href="https://yafine-blog.cn/posts/f648.html"/>
-    <id>https://yafine-blog.cn/posts/f648.html</id>
-    <published>2020-09-27T12:49:59.000Z</published>
-    <updated>2020-09-27T14:12:33.178Z</updated>
-    
-    <summary type="html">
-    
-      HTML5知识点总结
-    
-    </summary>
-    
-    
-      <category term="uncategorized" scheme="https://yafine-blog.cn/categories/uncategorized/"/>
-    
-    
-      <category term="HTML5" scheme="https://yafine-blog.cn/tags/HTML5/"/>
-    
-  </entry>
   
   <entry>
     <title>打造炫酷的Github个人页面</title>
@@ -453,6 +432,31 @@
       <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
     
       <category term="图床搭建" scheme="https://yafine-blog.cn/tags/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Jsdelivr/CDN加速博客访问速度</title>
+    <link href="https://yafine-blog.cn/posts/ee35.html"/>
+    <id>https://yafine-blog.cn/posts/ee35.html</id>
+    <published>2020-02-17T12:22:48.000Z</published>
+    <updated>2020-07-13T04:13:47.638Z</updated>
+    
+    <summary type="html">
+    
+      使用jsdelivr cdn提升博客的访问速度
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="cdn" scheme="https://yafine-blog.cn/tags/cdn/"/>
+    
+      <category term="jsdelivr" scheme="https://yafine-blog.cn/tags/jsdelivr/"/>
     
   </entry>
   
