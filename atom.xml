@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yafine-blog.cn/"/>
-  <updated>2020-09-27T13:46:34.528Z</updated>
+  <updated>2020-09-27T14:12:33.178Z</updated>
   <id>https://yafine-blog.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yafine-blog.cn/posts/f648.html"/>
     <id>https://yafine-blog.cn/posts/f648.html</id>
     <published>2020-09-27T12:49:59.000Z</published>
-    <updated>2020-09-27T13:46:34.528Z</updated>
+    <updated>2020-09-27T14:12:33.178Z</updated>
     
     <summary type="html">
     
@@ -30,9 +30,7 @@
     </summary>
     
     
-      <category term="转载" scheme="https://yafine-blog.cn/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-      <category term="Web前端" scheme="https://yafine-blog.cn/categories/%E8%BD%AC%E8%BD%BD/Web%E5%89%8D%E7%AB%AF/"/>
+      <category term="uncategorized" scheme="https://yafine-blog.cn/categories/uncategorized/"/>
     
     
       <category term="HTML5" scheme="https://yafine-blog.cn/tags/HTML5/"/>
