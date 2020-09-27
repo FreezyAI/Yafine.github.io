@@ -15,8 +15,23 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>专注于Web,分享生活,分享知识,备用站点：yafine66.gitee.io</description>
-    <pubDate>Mon, 07 Sep 2020 10:03:25 GMT</pubDate>
+    <pubDate>Sun, 27 Sep 2020 13:46:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>学习总结之HTML5剑指前端（建议收藏，图文并茂）</title>
+      <link>https://yafine-blog.cn/posts/f648.html</link>
+      <guid>https://yafine-blog.cn/posts/f648.html</guid>
+      <pubDate>Sun, 27 Sep 2020 12:49:59 GMT</pubDate>
+      <description>
+      
+        HTML5知识点总结
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/f648.html#disqus_thread</comments>
+    </item>
     
     <item>
       <title>打造炫酷的Github个人页面</title>
@@ -301,21 +316,6 @@
       
       
       <comments>https://yafine-blog.cn/posts/eb3a.html#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>使用Jsdelivr/CDN加速博客访问速度</title>
-      <link>https://yafine-blog.cn/posts/ee35.html</link>
-      <guid>https://yafine-blog.cn/posts/ee35.html</guid>
-      <pubDate>Mon, 17 Feb 2020 12:22:48 GMT</pubDate>
-      <description>
-      
-        使用jsdelivr cdn提升博客的访问速度
-      
-      </description>
-      
-      
-      <comments>https://yafine-blog.cn/posts/ee35.html#disqus_thread</comments>
     </item>
     
   </channel>
